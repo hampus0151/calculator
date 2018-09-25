@@ -40,7 +40,7 @@ public class calc
             System.out.println("your answer is " + (num1 + num2));
         }
 
-        else if (Objects.equals(operation,"-"))
+        if (Objects.equals(operation,"-"))
         {
             System.out.println("your answer is " + (num1 - num2));
         }
